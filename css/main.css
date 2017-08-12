@@ -1,0 +1,448 @@
+ body {
+     background-color: cyan;
+ }
+ 
+ .logo img {
+     width: 50%;
+     height: auto;
+     margin: -3rem 0rem 0rem 8rem;
+ }
+ 
+ .masthead img {
+     width: 100%;
+     height: 10rem;
+     margin: -5rem 0rem 1rem 0rem;
+ }
+ 
+ .box h2 {
+     margin: 0rem 0rem 0rem 12rem;
+     font-family: serif;
+ }
+ 
+ figure img {
+     width: 70%;
+     height: auto;
+     margin: -1rem 0rem 0rem 3rem;
+ }
+ 
+ .row h2 {
+     margin: 0rem 0rem 0rem 12rem;
+     font-family: serif;
+ }
+ 
+ .row p {
+     width: 85%;
+     float: right;
+     margin: 0rem 2rem 0rem 0rem;
+ }
+ 
+ .nav-bar li {
+     text-decoration: none;
+     list-style-type: none;
+     display: block;
+     width: 12rem;
+     margin: -15rem 0rem 0rem -6rem;
+     padding: 0rem 0rem 0rem 0rem;
+     width: 137%;
+ }
+ 
+ .nav-bar ul {
+     padding: 0rem 0rem 0rem 6rem;
+     margin: -15rem 0rem 6rem 1rem;
+ }
+ 
+ .nav-bar li a {
+     display: inline-block;
+     width: 85%;
+     margin: 16rem 0rem 0rem 0rem;
+     font-size: 2rem;
+     padding: 1rem;
+ }
+ 
+ .nav-bar a {
+     display: inline-block;
+     text-decoration: none;
+     border: 1px solid #DDD;
+     background-color: #EEE;
+     color: #000;
+     margin: 0 0 1rem 0;
+     padding: 1rem;
+     text-align: center;
+ }
+ 
+ .masthead h1 {
+     font-size: 6rem;
+     top: calc(50% - 5.5rem);
+     left: 0;
+     transform: translate(0, 0);
+     font-family: sans-serif;
+ }
+ 
+ .masthead h1 {
+     position: absolute;
+     margin: 0;
+     top: calc(66% - -5rem);
+     left: 52%;
+     transform: translate(-50%, 0);
+     color: bisque;
+     text-align: center;
+     font-size: 2rem;
+ }
+ 
+ footer p {
+     text-align: center;
+     margin: 1rem 0rem 0rem -2rem;
+     font-size: 1.5rem;
+ }
+ 
+ footer .icon li a {
+     display: inline-block;
+     width: auto;
+     padding: 0;
+ }
+ 
+ footer .icon li {
+     list-style-type: none;
+ }
+ 
+ footer .icon li a {
+     display: block;
+     text-align: center;
+     width: 0%;
+     font-size: 2rem;
+     float: left;
+     margin: 0rem 0rem 0rem 2rem;
+     color: mediumvioletred;
+     padding: 2rem;
+ }
+ 
+ .info h3 {
+     margin: 7rem 0rem 0rem 4rem;
+     color: brown;
+ }
+ 
+ .box h1 {
+     margin: 0rem 0rem 0rem 9rem;
+     font-family: serif;
+ }
+ 
+ input {
+     margin: 1rem 0rem 1rem 2rem;
+     padding: 0.5rem;
+     font-size: 1.5rem;
+ }
+ 
+ #send {
+     width: 60%;
+     margin: 2rem;
+ }
+ 
+ textarea {
+     float: right;
+     margin: 1rem 10.5rem 0rem 0rem;
+     width: 60%;
+     height: 12.6rem;
+     font-size: 2rem;
+ }
+ 
+ .feedback {
+     font-family: sans-serif;
+     font-size: 2rem;
+     color: brown;
+     text-align: center;
+ }
+ 
+ .feedback ul {
+     list-style-type: none;
+ }
+ 
+ @media screen and (min-width: 60rem) {
+     body {
+         background-color: cyan;
+     }
+     .logo img {
+         width: 43%;
+         height: auto;
+         margin: -10rem 0rem 0rem 21rem;
+     }
+     .masthead img {
+         width: 100%;
+         height: 10rem;
+         margin: -5rem 0rem 1rem 0rem;
+     }
+     .box h2 {
+         margin: 0rem 0rem 0rem -2rem;
+         font-family: serif;
+         text-align: center;
+     }
+     figure img {
+         width: 35%;
+         height: auto;
+         margin: -1rem 0rem 0rem 4rem;
+     }
+     .row h2 {
+         margin: 0rem 0rem 0rem 2rem;
+         font-family: serif;
+     }
+     .row p {
+         width: 85%;
+         float: right;
+         margin: 0rem 4rem 0rem 0rem;
+     }
+     .nav-bar li {
+         text-decoration: none;
+         list-style-type: none;
+         display: inline-block;
+         width: 12rem;
+         margin: 0rem 0rem 0rem -3rem;
+         padding: 0rem 1rem 0rem 0rem;
+         width: 53%;
+     }
+     .nav-bar ul {
+         padding: 0rem 0rem 0rem 6rem;
+         margin: -15rem 0rem 6rem 1rem;
+     }
+     .nav-bar li a {
+         display: inline-block;
+         width: 85%;
+         margin: 16rem 0rem 0rem 0rem;
+         font-size: 2rem;
+         padding: 1rem;
+     }
+     .nav-bar a {
+         display: inline-block;
+         text-decoration: none;
+         border: 1px solid #DDD;
+         background-color: #EEE;
+         color: #000;
+         margin: 0 0 1rem 0;
+         padding: 1rem;
+         text-align: center;
+     }
+     .masthead h1 {
+         font-size: 6rem;
+         top: calc(50% - 5.5rem);
+         left: 0;
+         transform: translate(0, 0);
+         font-family: sans-serif;
+     }
+     .masthead h1 {
+         position: absolute;
+         margin: 0;
+         top: calc(66% - -4rem);
+         left: 52%;
+         transform: translate(-50%, 0);
+         color: bisque;
+         text-align: center;
+         font-size: 5rem;
+     }
+     footer {
+         position: relative;
+         right: -4rem;
+     }
+     footer p {
+         text-align: center;
+         margin: 1rem 0rem 0rem -6rem;
+         font-size: 1.5rem;
+     }
+     footer .icon li a {
+         display: inline-block;
+         width: auto;
+         padding: 0;
+     }
+     footer .icon li {
+         list-style-type: none;
+     }
+     footer .icon li a {
+         display: block;
+         text-align: center;
+         width: 5%;
+         font-size: 2rem;
+         float: left;
+         margin: 2rem 0rem 0rem 10rem;
+         color: mediumvioletred;
+     }
+     .info h3 {
+         margin: 6rem 0rem 0rem 24rem;
+         color: brown;
+     }
+     .box h1 {
+         margin: 0rem 0rem 0rem 29rem;
+         font-family: serif;
+     }
+     input {
+         margin: 1rem 0rem 1rem 2rem;
+         padding: 0.5rem;
+         font-size: 1.5rem;
+     }
+     #send {
+         width: 23%;
+     }
+     textarea {
+         float: right;
+         margin: -14rem 4rem 0rem 0rem;
+         width: 60%;
+         height: 12.6rem;
+         font-size: 2rem;
+     }
+     figure p {
+         width: 40%;
+         float: right;
+         margin: -22rem 3rem 0rem 0rem;
+     }
+ }
+ 
+ @media screen and (min-width: 80rem) {
+     body {
+         background-color: cyan;
+     }
+     .logo img {
+         width: 50%;
+         height: auto;
+         margin: -14rem 0rem 0rem 0rem;
+     }
+     .masthead img {
+         width: 100%;
+         height: 10rem;
+         margin: 0rem 0rem 1rem 0rem;
+     }
+     .box h2 {
+         margin: 0rem 0rem 0rem 11.5rem;
+         font-family: serif;
+         position: relative;
+         bottom: -1rem;
+     }
+     figure img {
+         width: 27%;
+         height: auto;
+         margin: 0rem 0rem 0rem 9rem;
+     }
+     #two {
+         margin: 0rem 0rem 0rem 4rem;
+         font-family: serif;
+         display: inline-block;
+         position: relative;
+         top: 2rem;
+         right: -2rem;
+         width: 40%;
+     }
+     .row p {
+         width: 80%;
+         float: left;
+         margin: 2rem 5rem 0rem 6rem;
+     }
+     .nav-bar li {
+         text-decoration: none;
+         list-style-type: none;
+         display: inline-block;
+         width: 12rem;
+         margin: 0;
+     }
+     .nav-bar ul {
+         padding: 0rem 0rem 0rem 6rem;
+         margin: -15rem 0rem 6rem 1rem;
+     }
+     .nav-bar li a {
+         display: inline-block;
+         width: 57%;
+         margin: 0rem 0rem 0rem 42rem;
+         font-size: 2rem;
+         padding: 1rem;
+     }
+     .nav-bar a {
+         display: inline-block;
+         text-decoration: none;
+         border: 1px solid #DDD;
+         background-color: #EEE;
+         color: #000;
+         margin: 0 0 1rem 0;
+         padding: 1rem;
+         text-align: center;
+     }
+     .masthead h1 {
+         font-size: 6rem;
+         top: calc(50% - 5.5rem);
+         left: 0;
+         transform: translate(0, 0);
+         font-family: sans-serif;
+     }
+     .masthead h1 {
+         position: absolute;
+         margin: 0;
+         top: calc(66% - 0rem);
+         left: 25%;
+         transform: translate(-50%, 0);
+         color: bisque;
+         text-align: center;
+     }
+     footer {
+         margin: 0rem 0rem 0rem 0rem;
+         position: relative;
+         top: 1rem;
+         right: -1rem;
+     }
+     footer p {
+         margin: 0rem 63rem 0rem 3rem;
+         font-size: 1.5rem;
+     }
+     footer .icon li a {
+         display: inline-block;
+         width: auto;
+         padding: 0;
+     }
+     footer .icon li {
+         list-style-type: none;
+     }
+     footer .icon li a {
+         display: block;
+         text-align: center;
+         width: 5%;
+         font-size: 2rem;
+         float: left;
+         margin: 2rem 0rem 0rem 5rem;
+         color: mediumvioletred;
+     }
+     .info h3 {
+         margin: 6rem 0rem 0rem 7rem;
+         color: brown;
+     }
+     .box h1 {
+         margin: 0rem 0rem 0rem 7rem;
+         font-family: serif;
+     }
+     input {
+         margin: 1rem 0rem 1rem 7rem;
+         padding: 0.5rem;
+         font-size: 1.5rem;
+     }
+     #send {
+         width: 23%;
+         margin: 0rem 7rem;
+     }
+     textarea {
+         float: right;
+         margin: -14rem 19rem 0rem 0rem;
+         width: 44%;
+         height: 12.6rem;
+         font-size: 2rem;
+     }
+     .row {
+         float: left;
+         width: 40%;
+         margin: 0rem 4rem 11rem 3rem;
+     }
+     #three {
+         position: relative;
+         top: -19rem;
+         right: -25rem;
+     }
+     figure p {
+         width: 40%;
+         float: right;
+         margin: -20rem 10rem 0rem 0rem;
+     }
+     #para {
+         float: right;
+         margin: -19rem -30rem 0rem 0rem;
+     }
+ }
